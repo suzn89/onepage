@@ -55,7 +55,7 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
 
 #main_visual { width: 100%; height: 800px; background: url(../images/mainbg.png) center top no-repeat; }
 
-#profile { width: 100%; min-width: 1400px; }
+#profile { width: 100%; min-width: 1400px; overflow: hidden; }
   #profile .row4 { float: left; width: 25%; padding: 30px 0; font-size: 16px; color: #ffffff; }
   #profile .row4 dl dt { margin-bottom:10px; font-size: 24px; text-align: center; }
   #profile .row4 dl dd { text-align: center; line-height: 160%; }
@@ -64,6 +64,24 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
   #profile .probox03 { background: #555555;}
   #profile .probox04 { background: #333333;}
 
+#project_wrap { width:100%; background: #191919;}
+#project { position: relative; width:1400px; height: 800px; margin: 0 auto; padding:120px 0; background: #191919; }
+  [class^='projectbox'] { position: absolute;}
+  #project .projectbox1 { left:-300px;}
+  #project .project_exp { position: absolute; width: 340px; height:460px; background: #222222; padding:40px; color: #ffffff;}
+  #project .project_exp .num { color:#7d7d7d; opacity: 0.8; font-size: 90px; font-weight: 700; letter-spacing: -1px;}
+  #project .project_exp h3 > span { display:block; font-size: 20px; font-weight: 500;}
+  #project .project_exp.odd { top: 180px; right:430px;}
+  #project .project_exp h3 { font-size: 30px; font-weight: bold;}
+  #project .project_exp p { line-height: 160%; margin-top: 40px; text-align: justify; }
+  #project .viewsub { position: absolute; top: 180px; right: 0px; width:420px; height:400px;}
+  #project .viewsub ul { overflow: hidden;}
+  #project .viewsub ul li { height:50px; overflow:hidden; cursor: pointer;  }
+  #project .viewsub ul li > span { position: relative; display:block; height:50px; padding: 10px 15px; line-height:30px; font-size:17px; color:#ffffff; background:#7d7d7d;}
+  #project .viewsub ul li > span:after { font-family: FontAwesome; content:'\f107'; position: absolute; right:20px; top: 10px;}
+  #project .viewsub ul li .panel img { width: 420px;} 
+  #project .viewsub ul li.activePanel { height:260px;}
+  .odd > .num { float:right; margin-top:-100px;} 
 
 
 /* 공통클래스 */
