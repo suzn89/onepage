@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/NotoSansKR-Thin.woff2) format('woff2'), url(../fonts/NotoSansKR-Thin.woff) format('woff'), url(../fonts/NotoSansKR-Thin.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/NotoSansKR-Light.woff2) format('woff2'), url(../fonts/NotoSansKR-Light.woff) format('woff'), url(../fonts/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/NotoSansKR-Regular.woff2) format('woff2'), url(../fonts/NotoSansKR-Regular.woff) format('woff'), url(../fonts/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/NotoSansKR-Medium.woff2) format('woff2'), url(../fonts/NotoSansKR-Medium.woff) format('woff'), url(../fonts/NotoSansKR-Medium.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/NotoSansKR-Bold.woff2) format('woff2'), url(../fonts/NotoSansKR-Bold.woff) format('woff'), url(../fonts/NotoSansKR-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/NotoSansKR-Black.woff2) format('woff2'), url(../fonts/NotoSansKR-Black.woff) format('woff'), url(../fonts/NotoSansKR-Black.otf) format('opentype');
+}
+* { outline: none; }
+*, :after, :before { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo',sans-serif; font-weight: normal;   }
+#header_wrap { width: 100%; height: 72px; border-bottom: 1px solid #424242; position: absolute; z-index: 999; background: rgba(23,23,23,0.5); top:0; }
+#header_wrap.stickyheader { position: fixed; top: -70px; background: rgba(23,23,23,1);}
+#header { position: relative; width:1400px; margin: 0 auto; }
+  #header h1 { float:left; margin-top: 22px;}
+  #header ul li { display: inline-block; }
+  #header ul li a { color: #ffffff;}
+  #header ul.menu { position: absolute; right:350px; top: 27px;}
+  #header ul.menu li { margin: 0 40px; }
+  #header ul.menu li a { font-size:18px;}
+  #header ul.menu li a:hover { transition: all 1.3s; background: linear-gradient(to right, #159957, #155799); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  #header ul.site { position: absolute; right:0; top: 23px;}
+  #header ul.site li { margin-left: 20px; height: 24px; line-height: 20px; }
+  #header ul.site li a i { float: left; margin-right: 5px; font-size: 24px;}
+  #header ul.site li a { font-size: 14px; color: #7d7d7d;}
+
+#main_visual { width: 100%; height: 800px; }
+
+#profile { width: 100%; min-width: 1400px; }
+  #profile .row4 { float: left; width: 25%; padding: 30px 0; font-size: 16px; color: #ffffff; }
+  #profile .row4 dl dt { margin-bottom:10px; font-size: 24px; text-align: center; }
+  #profile .row4 dl dd { text-align: center; line-height: 160%; }
+  #profile .probox01 { background: #000000;}
+  #profile .probox02 { background: #777777;}
+  #profile .probox03 { background: #555555;}
+  #profile .probox04 { background: #333333;}
+
+
+
+/* 공통클래스 */
+.ir { font-size: 0; text-indent: -9999em;}
+
+.fl { float:left; }
+.fr { float:right; }
