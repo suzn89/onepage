@@ -69,10 +69,10 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
   [class^='projectbox'] { position: absolute;}
   #project .projectbox1 { left:-300px;}
   #project .project_exp { position: absolute; width: 340px; height:460px; background: #222222; padding:40px; color: #ffffff;}
-  #project .project_exp .num { color:#7d7d7d; opacity: 0.8; font-size: 90px; font-weight: 700; letter-spacing: -1px;}
+  #project .project_exp .num { position: absolute; top:-60px; right:20px; color:#7d7d7d; opacity: 0.8; font-size: 90px; font-weight: 700; letter-spacing: -1px;}
   #project .project_exp h3 > span { display:block; font-size: 20px; font-weight: 500;}
   #project .project_exp.odd { top: 180px; right:430px;}
-  #project .project_exp h3 { font-size: 30px; font-weight: bold;}
+  #project .project_exp h3 { font-size: 30px; font-weight: bold; margin-bottom:8px; }
   #project .project_exp p { line-height: 160%; margin-top: 40px; text-align: justify; }
   #project .viewsub { position: absolute; top: 180px; right: 0px; width:420px; height:400px;}
   #project .viewsub ul { overflow: hidden;}
@@ -84,8 +84,41 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
   
   .odd > .num { float:right; margin-top:-100px;} 
 
+#respond_wrap { width:100%; background: #333333;}
+  #respond { position: relative; width:1400px; height: 800px; margin: 0 auto; padding:120px 0; background: #333333; }
+  [class^='respondbox'] { position: absolute;}
+  #respond .respondbox1 { right:0px;}
+  #respond .project_exp { position: absolute; width: 450px; height:460px; background: #222222; padding:40px; color: #ffffff;}
+  #respond .project_exp .num { position: absolute;top:-60px; left:30px; color:#7d7d7d; opacity: 0.8; font-size: 90px; font-weight: 700; letter-spacing: -1px;}
+  #respond .project_exp h3 > span { display:block; font-size: 20px; font-weight: 500; margin-bottom:8px; }
+  #respond .project_exp.odd { top: 180px; left:0px;}
+  #respond .project_exp h3 { font-size: 30px; font-weight: bold;}
+  #respond .project_exp p { line-height: 160%; margin-top: 40px; text-align: justify; }
+
+#recently_wrap { width:100%; background: #191919;}
+#recently { position: relative; width:1400px; height: 800px; margin: 0 auto; padding:120px 0; background: #191919; }
+  [class^='respondbox'] { position: absolute;}
+  #recently .respondbox1 { left:-300px;}
+  #recently .project_exp { position: absolute; width: 340px; height:460px; background: #222222; padding:40px; color: #ffffff;}
+  #recently .project_exp .num { position: absolute; top:-60px; right:20px; color:#7d7d7d; opacity: 0.8; font-size: 90px; font-weight: 700; letter-spacing: -1px;}
+  #recently .project_exp h3 > span { display:block; margin-bottom:8px; font-size: 20px; font-weight: 500; }
+  #recently .project_exp.odd { top: 180px; right:430px;}
+  #recently .project_exp h3 { font-size: 30px; font-weight: bold;}
+  #recently .project_exp p { line-height: 160%; margin-top: 40px; text-align: justify; }
+  #recently .viewsub { position: absolute; top: 180px; right: 0px; width:420px; height:400px;}
+  #recently .viewsub ul { overflow: hidden;}
+  #recently .viewsub ul li {overflow:hidden; cursor: pointer;  }
+  #recently .viewsub ul li > span { position: relative; display:block; height:50px; padding: 10px 15px; line-height:30px; font-size:17px; color:#ffffff; background:#7d7d7d;}
+  #recently .viewsub ul li > span:after { font-family: FontAwesome; content:'\f107'; position: absolute; right:20px; top: 10px;}
+  #recently .viewsub ul li .panel img { width: 420px;} 
+  #recently .viewsub ul li .panel { height:0; overflow: hidden;} */
+  
+  .odd > .num { float:right; margin-top:-100px;} 
 
 
+
+  
+.crossbrowsing { text-align:right !important; font-size:14px; color:#666666;}  
 /* 공통클래스 */
 .ir { font-size: 0; text-indent: -9999em;}
 
