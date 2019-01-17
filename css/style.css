@@ -76,12 +76,14 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
   #project .project_exp p { line-height: 160%; margin-top: 40px; text-align: justify; }
   #project .viewsub { position: absolute; top: 180px; right: 0px; width:420px; height:400px;}
   #project .viewsub ul { overflow: hidden;}
-  #project .viewsub ul li { height:50px; overflow:hidden; cursor: pointer;  }
+  #project .viewsub ul li {overflow:hidden; cursor: pointer;  }
   #project .viewsub ul li > span { position: relative; display:block; height:50px; padding: 10px 15px; line-height:30px; font-size:17px; color:#ffffff; background:#7d7d7d;}
   #project .viewsub ul li > span:after { font-family: FontAwesome; content:'\f107'; position: absolute; right:20px; top: 10px;}
   #project .viewsub ul li .panel img { width: 420px;} 
-  #project .viewsub ul li.activePanel { height:260px;}
+  #project .viewsub ul li .panel { height:0; overflow: hidden;} */
+  
   .odd > .num { float:right; margin-top:-100px;} 
+
 
 
 /* 공통클래스 */
