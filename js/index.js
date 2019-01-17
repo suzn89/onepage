@@ -13,7 +13,24 @@ $(function(){
     });
   });  
 
+  //퀵메뉴
+  $('.anchor_container > ul > li').on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+        var topmenu = $(this).parent('.anchor_container').innerHeight()
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top - topmenu
+    }, 500);
+  });
 
+  //마우스 오버시 글씨 나오게함
+  $('.anchor_container ul li').hover(
+    function(){
+      $(this).find('span').stop().animate({'right':25},500).css('opacity','1');
+    },
+    function(){
+      $(this).find('span').stop().animate({'right':-100},500)
+    }
+  );
 
   var viewsub = $('.viewsub > ul > li');
   open(); //맨 처음에 열려있을수있게 호출해줌
