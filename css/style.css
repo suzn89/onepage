@@ -53,7 +53,7 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
   #header ul.site li a i { float: left; margin-right: 5px; font-size: 24px;}
   #header ul.site li a { font-size: 14px; color: #7d7d7d;}
 
-.anchor_container { position: fixed; height:calc(100vh - 72px); bottom:0; right:10px; width:100px; z-index:999; border-right:1px solid #fafafa;}
+.anchor_container { position: fixed; height:calc(100vh - 72px); bottom:0; right:40px; width:100px; z-index:999; border-right:1px solid #fafafa;}
 .anchor_container:after { content: ''; }
 .anchor_container ul { position: absolute; top:50%; right:-8px; margin-top:-250px;}
 .anchor_container ul li { line-height: 100px; width:100px; text-align:right; position: relative; overflow:hidden;}
