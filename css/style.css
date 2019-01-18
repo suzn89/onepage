@@ -130,12 +130,11 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
   #work [class^='work_'] .in { display:block; position:absolute; left:0; top:0; z-index: 100; width:350px; height:260px; opacity: 0; transition:0.5s; }
   #work [class^='work_'] .in ul { width:100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}  
   #work [class^='work_'] .in ul li a { color:#ffffff; font-size:16px; font-weight:normal;}  
-  #work [class^='work_'] .in ul li { line-height:180%;}
-  #work [class^='work_'] .in ul li:first-child { font-size:20px; position: relative; margin-bottom:20px; padding-bottom:20px;}
-  #work [class^='work_'] .in ul li:first-child:after { width:50px; height:1px; content:''; background:#ffffff; position: absolute; bottom:0; left:150px;}
+  #work [class^='work_'] .in ul li { line-height:160%; font-size: 15px; font-weight: normal;}
+  #work [class^='work_'] .in ul li:first-child { font-size:20px; position: relative; margin-bottom:20px; }
   #work [class^='work_']:hover .in { opacity: 1 ; color:#ffffff; }
-  #work [class^='work_'] .ov { position: absolute; left:0; top:0; width:100%; height:100%; z-index: 10; transition:0.5s; opacity:0; background:#000000;}
-  #work [class^='work_']:hover .ov { opacity:0.7;}
+  #work [class^='work_'] .ov { position: absolute; left:0; top:0; width:100%; height:100%; z-index: 10; transition:0.5s; opacity:0.7; background:#000000;}
+  #work [class^='work_']:hover .ov { opacity:0.9; transform: scale(0.8,0.8)}
   #work .work_01:after { background: url(../images/work01.png);}
   #work .work_02:after { background: url(../images/work02.png);}
   #work .work_03:after { background: url(../images/work03.png);}
@@ -158,6 +157,6 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
 .crossbrowsing { text-align:right !important; font-size:14px; color:#666666;}  
 /* 공통클래스 */
 .ir { font-size: 0; text-indent: -9999em;}
-
+.site_close { color:#666666 !important;}
 .fl { float:left; }
 .fr { float:right; }
