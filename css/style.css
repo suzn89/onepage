@@ -124,6 +124,34 @@ body { font-family: 'Noto Sans KR',Dotum,'돋움',Helvetica,'Apple SD Gothic Neo
   
   .odd > .num { float:right; margin-top:-100px;} 
 
+#work_wrap { width:100%; background:#333333;}
+  #work { width:1400px; margin: 0 auto; padding:120px 0; overflow:hidden;}
+  #work [class^='work_'] { position: relative; width:350px; height:260px; float:left; text-align:center; overflow:hidden; }
+  #work [class^='work_'] .in { display:block; position:absolute; left:0; top:0; z-index: 100; width:350px; height:260px; opacity: 0; transition:0.5s; }
+  #work [class^='work_'] .in ul { width:100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}  
+  #work [class^='work_'] .in ul li a { color:#ffffff; font-size:16px; font-weight:normal;}  
+  #work [class^='work_'] .in ul li { line-height:180%;}
+  #work [class^='work_'] .in ul li:first-child { font-size:20px; position: relative; margin-bottom:20px; padding-bottom:20px;}
+  #work [class^='work_'] .in ul li:first-child:after { width:50px; height:1px; content:''; background:#ffffff; position: absolute; bottom:0; left:150px;}
+  #work [class^='work_']:hover .in { opacity: 1 ; color:#ffffff; }
+  #work [class^='work_'] .ov { position: absolute; left:0; top:0; width:100%; height:100%; z-index: 10; transition:0.5s; opacity:0; background:#000000;}
+  #work [class^='work_']:hover .ov { opacity:0.7;}
+  #work .work_01:after { background: url(../images/work01.png);}
+  #work .work_02:after { background: url(../images/work02.png);}
+  #work .work_03:after { background: url(../images/work03.png);}
+  #work .work_04:after { background: url(../images/work04.png);}
+  #work .work_05:after { background: url(../images/work05.png);}
+  #work .work_06:after { background: url(../images/work06.png);}
+  #work .work_07:after { background: url(../images/work07.png);}
+  #work .work_08:after { background: url(../images/work08.png);}
+  #work .work_09:after { background: url(../images/work09.png);}
+  #work .work_10:after { background: url(../images/work10.png);}
+  #work .work_11:after { background: url(../images/work11.png);}
+  #work .work_12:after { background: url(../images/work12.png);}
+  #work [class^='work_']:after {  position: absolute; content:''; display:block; width: 100%; height:100%; left:0; top:0; background-size:cover !important; transition:0.5s; }
+  #work [class^='work_']:before { content:''; display:inline-block; width:0; height:100%; vertical-align: middle;}
+  #work [class^='work_']:hover:after { transform: scale(1.1,1.1)}
+  #work [class^='work_'] .category { position: absolute; right:10px; top:10px;}
 
 
   
