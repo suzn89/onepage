@@ -1,0 +1,21 @@
+.borderbox {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #dadada;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+}
+
+#content {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=compile.css.map */
